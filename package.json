@@ -1,24 +1,14 @@
 {
   "name": "discord-self-bot",
   "version": "10.2.0",
-  "description": "Favna#0001's Discord-Self-Bot for anyone to grant extreme power to their Discord usage",
-  "author": "Favna",
+  "description": "",
+  "author": "RageEmpress",
   "license": "GPL-3.0",
   "main": "src/app.js",
-  "homepage": "https://favna.xyz/selfbot",
+  "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Favna/discord-self-bot"
-  },
-  "scripts": {
-    "docs": "./node_modules/.bin/jsdoc2md --template ./docs/template.hbs --files ./src/commands/**/*.js | tee docs/index.md ../selfbot.wiki/All-Commands.md > NUL",
-    "docs:json": "./node_modules/.bin/jsdoc2md --json --files ./src/commands/**/*.js > ../favna.xyz/public/dist/selfbotdocs.json",
-    "docs:deploy": "yarn run docs && yarn run docs:json && git commit -am documentation && git push && cd ../selfbot.wiki/ && git commit -am documentation && git push && cd ../favna.xyz/ && git commit -am documentation && git push",
-    "lint": "./node_modules/.bin/eslint src/commands/**/*.js",
-    "lint:fix": "./node_modules/.bin/eslint --fix src/commands/**/*.js",
-    "start": "node src/app.js",
-    "test": "yarn run lint:fix && yarn lint && ./node_modules/.bin/mocha",
-    "test:minimal": "./node_modules/.bin/mocha"
+    "url": ""
   },
   "keywords": [
     "discord",
